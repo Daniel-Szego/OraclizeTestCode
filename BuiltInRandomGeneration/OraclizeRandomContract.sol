@@ -36,9 +36,9 @@ contract OraclizeRandomContract is usingOraclize {
     }
 
     function updateRandom() payable {
+        oraclize_setProof(proofType_Ledger); 
         uint N = 7; // number of random bytes we want the datasource to return
         uint delay = 0; // number of seconds to wait before the execution takes place
-        uint callbackGas = 200000; // amount of gas we want Oraclize to set for the callback function
-        bytes32 queryId = oraclize_newRandomDSQuery(delay, N, callbackGas); // this function internally generates the correct oraclize_query and returns its queryId
+        bytes32 queryId = oraclize_newRandomDSQuery(delay, N, 400000); // this function internally generates the correct oraclize_query and returns its queryId
     }
 }

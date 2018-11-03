@@ -3,9 +3,9 @@
 SimpleQuery:
 - query a stock price with Oraclize from Solidity Ethereum
 
-RandomGeneration:
+RandomGeneration 1:
 - external generation of a random number for a Solidity Ethereum contract
 
-RandomGeneration
+RandomGeneration 2:
 - built in random generation of the Oraclize framework
 
