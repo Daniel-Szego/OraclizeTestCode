@@ -6,3 +6,6 @@ SimpleQuery:
 RandomGeneration:
 - external generation of a random number for a Solidity Ethereum contract
 
+RandomGeneration
+- built in random generation of the Oraclize framework
+
