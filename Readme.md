@@ -9,3 +9,6 @@ RandomGeneration 1:
 RandomGeneration 2:
 - built in random generation of the Oraclize framework
 
+SchellingOracle:
+- aggregating multiply oracle information in a Schelling point
+
