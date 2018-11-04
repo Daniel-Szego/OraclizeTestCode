@@ -50,6 +50,10 @@ contract ProbeContract is usingOraclize {
         emit ProbeUpdated(valueI);
     }
 
+    function getPrice() public constant returns (uint) {
+        return oraclize_getPrice("URL");
+    } 
+
     function updateValue() payable {
         if (oraclize_getPrice("URL") > this.balance) {
 
