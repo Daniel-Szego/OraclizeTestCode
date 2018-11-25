@@ -12,3 +12,8 @@ RandomGeneration 2:
 SchellingOracle:
 - aggregating multiply oracle information in a Schelling point
 
+ScheduledEthereumSmartContract
+- scheduled Ethereum smart contract example that is called every second to update the contract state
+More info: https://danielszego.blogspot.com/2018/11/update-ethereum-smart-contract.html
+ 
+
