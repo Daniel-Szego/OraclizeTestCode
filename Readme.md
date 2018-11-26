@@ -16,4 +16,7 @@ ScheduledEthereumSmartContract
 - scheduled Ethereum smart contract example that is called every second to update the contract state
 More info: https://danielszego.blogspot.com/2018/11/update-ethereum-smart-contract.html
  
+EventTriggeredEthereumContract
+- scheduled Ethereum smart contract with Orcalize, waiting for an event to occur
+More info: https://danielszego.blogspot.com/2018/11/how-to-trigger-ethereum-smart-contract.html
 
