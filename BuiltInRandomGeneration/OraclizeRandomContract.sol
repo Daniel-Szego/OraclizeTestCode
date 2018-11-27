@@ -15,6 +15,15 @@ contract OraclizeRandomContract is usingOraclize {
         max = _max;
         LogConstructorInitiated("Constructor was initiated. Call 'updateRandom()' to send the Oraclize Query.");
     }
+    
+    // fallback payable
+    function () payable {
+        
+    }
+    
+    function getBalance() returns (uint) {
+        return address(this).balance;
+    }
 
     function __callback(bytes32 myid, string result, bytes proof) {
         if (msg.sender != oraclize_cbAddress()) revert();
