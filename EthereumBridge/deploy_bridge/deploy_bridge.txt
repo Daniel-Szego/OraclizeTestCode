@@ -1,0 +1,4 @@
+
+cd /Eth/ethereum-bridge/ethereum-bridge
+
+./ethereum-bridge -H localhost:9545 -a 0

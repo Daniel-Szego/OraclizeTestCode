@@ -20,3 +20,5 @@ EventTriggeredEthereumContract
 - scheduled Ethereum smart contract with Orcalize, waiting for an event to occur
 More info: https://danielszego.blogspot.com/2018/11/how-to-trigger-ethereum-smart-contract.html
 
+EthereumBridge
+- working with consortium blockchain solution, at the moment only with Truffle
